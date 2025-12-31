@@ -4,7 +4,7 @@ import time
 import os
 import sys
 import datetime
-import PySimpleGUI as sg
+import FreeSimpleGUI as sg
 
 sg.theme("DarkGreen1")
 
@@ -33,7 +33,7 @@ layout = [
 ]
 
 if os.path.exists('Prefix.txt'):
-	window = sg.Window("Nachrichten Sender", icon="Icon.ico", element_justification='c').Layout(layout)
+	window = sg.Window("PyW-Sender", icon="Icon.png", element_justification='c').Layout(layout)
 	while True:
 		event, values = window.read()
 
@@ -58,7 +58,7 @@ if os.path.exists('Prefix.txt'):
 			sg.popup("Done!")
 			break
 else:
-	window = sg.Window("Nachrichten Sender", icon="Icon.ico", element_justification='c').Layout(firstlayout)
+	window = sg.Window("PyW-Sender", icon="Icon.png", element_justification='c').Layout(firstlayout)
 	while True:
 		event, values = window.read()
 

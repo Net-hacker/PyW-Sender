@@ -1,19 +1,11 @@
-# Python-Whatsapp-Nachrichten-Sender-GUI
-Es ist ein Nachrichten Sender der PyWhatkit und tkinter benutzt um ein GUI Whatsapp Nachrichten Sender zu machen.
-## Was kann man damit machen?
-- Whatsapp Nachrichten an gezielten Uhrzeiten zu versenden
-- Im Vergleich zu den anderen Versionen hat es ein GUI (Graphical-User-Interface)
+# PyW-Sender
+It's a GUI-App for sending WhatsApp messages at a specific time of the day
 
-## Was braucht man dafür
-- Python 3.6 oder höher
+## Requirements
+- Python 3.6 or higher
 
-## Installation auf Windows
+## How to run?
 ```
-> Nachrichten-Sender.exe
-```
-
-## Installation auf Linux
-```
-$ ./Setup.sh
-$ python3 Nachrichten_Sender_GUI.py
+> pip install -r requirements.txt
+> python3 PyW-Sender.py
 ```
